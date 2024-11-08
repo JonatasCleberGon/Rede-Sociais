@@ -7,7 +7,10 @@ async function redesFavoritasMundo() {
 
     const data = [
         {
-            values: valores
+            values: valores,
+            labels: redes,
+            type: 'pie',
+            textinfo: 'label+perent'
         }
     ]
 }
